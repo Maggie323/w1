@@ -1,8 +1,19 @@
+/*This stylesheet is to add a bit of custom CSS*/
+
 body {
-	background-color: mediumvioletred;
+	background-color:  #ffcccc;
+	align-content: center;
 
 }
 
-<div class="container">
-  <!-- Content here -->
-</div>
+h1 {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left:  10%;
+	margin-right: 10%;	align-content:center;
+}
+p {
+	margin-left:  10%;
+	margin-right: 10%;
+	align-content: justify;
+}

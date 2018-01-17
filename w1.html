@@ -3,7 +3,7 @@
 <!--	w1 directory-->
 <head>
 	<meta charset="utf-8">
-<!--Bootstrap Stylesheet from https://getbootstrap.com/-->
+<!--Bootstrap Source= https://getbootstrap.com/-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <!--My Stylesheet-->
 	<link rel="stylesheet" href="styles/stylesheet.css">
@@ -23,7 +23,7 @@
 <!--	Form for users to submit a agree/disagree to this articles content-->
 	<form method="get">
 		<fieldset>
-			<legend>Do You Agree With This Article?</legend>
+			<legend >Do You Agree With This Article?</legend>
 			<label> Yes
 				<input type="radio" name="agreeability" value="Yes"> 
 			</label>
@@ -38,7 +38,7 @@
 	<form method="get" autocomplete="on">
 		<h2>Want More Information?</h2>
 	
-		<p>Fill out the below fields with your contact details:</p>
+		<p class="font-weight-light">Fill out the below fields with your contact details:</p>
 		
 
 		<label>First Name:
@@ -53,8 +53,9 @@
 		<label>Phone Number:
 			<input type="tel" name="phone-number" placeholder="(123) 456-1890" required>
 		</label><br>
-		<label>Insert your comments below:
-			<textarea name="outdoor" cols="80" rows="10" maxlength="200">
+		<label class="font-italic">Insert your comments below:
+			<br>
+			<textarea class="font-weight-light" name="outdoor" cols="80" rows="10" maxlength="200">
 			Maxlenght: 200 characters.
 			</textarea>
 		</label>
