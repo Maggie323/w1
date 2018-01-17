@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!--Bootstrap Stylesheet from https://getbootstrap.com/-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<!--My Stylesheet-->
+	<link rel="stylesheet" href="styles/stylesheet.css">
+    <title>Assignment 1 </title>
+</head>
+	
+<body>
+	<h1>What Issues Does Responsive Web Design Solve?</h1>
+
+<!--Paragraph Section-->
+	<p>Responsive Web Designs provides a good user experience across different electronic devices without compromising on the quality of the content. </p>
+	<p>RWD can solve picture sizing issues, and apply appealing picture sizes appropriate to the screen size of various devices. For example, it wouldn’t be a good website if a picture takes up a large amount of screen space when viewing from a mobile device. </p>	
+	<p>RWD can also solve overlapping issues. For example, a responsive website should display its content in different screen sizes without having text or images overlap with each other, but instead display its content appropriate to screen sizes. </p>
+	<p>I believe that a responsive website may also solve low visitor ratings. Considering that there are many more people now surfing the web via smartphones (or other small devices), a user might not spend much time on a website that isn’t responsive on the small device being used. Those such websites might receive less visitors than websites that are responsive across various electronic devices.</p>
+	
+	
+<!--	Form for users to submit a agree/disagree to this articles content-->
+	<form method="get">
+		<fieldset>
+			<legend>Do You Agree With This Article?</legend>
+			<label> Yes
+				<input type="radio" name="agreeability" value="Yes"> 
+			</label>
+			<label>No
+				<input type="radio" name="agreeability" value="No">
+			</label>
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+		
+<!--Form for users to submit their comments/questions-->
+	<form method="get" autocomplete="on">
+		<h2>Want More Information?</h2>
+	
+		<p>Fill out the below fields with your contact details:</p>
+		
+
+		<label>First Name:
+			<input type="text" name="first-name" placeholder="insert your first name" required>
+		</label><br>
+		<label>Last Name:
+			<input type="text" name="last-name" placeholder="insert your last name" required>
+		</label><br>
+		<label>Email Address
+			<input type="email" name="email" placeholder="example@email.com" required multiple>		
+		</label><br>		
+		<label>Phone Number:
+			<input type="tel" name="phone-number" placeholder="(123) 456-1890" required>
+		</label><br>
+		<label>Insert your comments below:
+			<textarea name="outdoor" cols="80" rows="10" maxlength="200">
+			Maxlenght: 200 characters.
+			</textarea>
+		</label>
+		
+		<fieldset>
+			<legend>How would you like to be contacted? (Select all that apply)</legend>
+			<label>Email
+				<input type="checkbox" name="contact[]" value="email">
+			</label>
+			<label>Phone
+				<input type="checkbox" name="contact[]" value="phone">
+			</label>
+		</fieldset>
+		<input type="submit" value="Submit"><br>
+		<input type="reset">
+	</form>
+	
+	
+</body>
+</html>
