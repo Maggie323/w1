@@ -9,11 +9,18 @@ body {
 h1 {
 	padding-top: 2%;
 	padding-bottom: 2%;
-	margin-left:  10%;
-	margin-right: 10%;	align-content:center;
+	text-align:center;
 }
+
 p {
 	margin-left:  10%;
 	margin-right: 10%;
 	align-content: justify;
+}
+.center {
+	text-align: center;
+	align-content: center;
+}
+input {
+	align-content: center;
 }
