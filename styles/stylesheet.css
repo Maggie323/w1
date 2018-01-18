@@ -1,25 +1,28 @@
 /*This stylesheet is to add a bit of custom CSS*/
 
 body {
-	background-color:  #ffcccc;
+	background-color: #ffcccc;
 	align-content: center;
-
 }
 
 h1 {
 	padding-top: 2%;
 	padding-bottom: 2%;
-	text-align:center;
+	text-align: center;
 }
 
 p {
 	margin-left:  10%;
 	margin-right: 10%;
-	align-content: justify;
+	text-align: justify;
+}
+.font-weight-light{
+	text-align: center;
 }
 .center {
 	text-align: center;
 	align-content: center;
+	margin-bottom: 2%;
 }
 input {
 	align-content: center;
